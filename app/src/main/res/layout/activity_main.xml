@@ -5,11 +5,20 @@
     android:layout_height="match_parent"
     tools:context="com.example.dumindut.birthdaycard.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image1"
+        android:scaleType="centerCrop"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
         android:text="Happy birthday Ben" />
 
     <TextView
@@ -17,14 +26,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:textSize="24sp"
-        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
         android:text="From Dumindu" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/image1"
-    />
 
 </RelativeLayout>
